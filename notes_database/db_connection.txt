@@ -1,0 +1,9 @@
+# SQLite connection instructions for the notes_database container
+#
+# Database file: ./notes.db
+#
+# Use sqlite3 (recommended):
+sqlite3 notes.db
+
+# Or run a single statement:
+# sqlite3 notes.db "SELECT 1;"
